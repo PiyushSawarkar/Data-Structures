@@ -136,4 +136,3 @@ int pop() {
     }
 }
 
-/* Output of BFS(breadth-first search) and DFS(depth-first search) program */
