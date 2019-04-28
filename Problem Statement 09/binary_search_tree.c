@@ -70,8 +70,8 @@ int main(void) {
         int opt;
         while (1) {
             printf("\nEnter a choice: \n1.Insert\n2.preorder\n3.inorder\n4.postorder\n\n ");
-                scanf("%d", & opt);
-                switch (opt) {
+            scanf("%d", & opt);
+            switch (opt) {
                 case 1:
                     insert();
                     break;
@@ -86,7 +86,7 @@ int main(void) {
                     break;
                 default:
                     printf("\nWrong Option Selected !!\n\n");
-                }
             }
-            return (0);
         }
+        return (0);
+}
