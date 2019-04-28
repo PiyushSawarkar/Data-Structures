@@ -69,7 +69,7 @@ void insert() {
 int main(void) {
         int opt;
         while (1) {
-            printf("\nEnter a choice: \n1.Insert\ n2.preorder\ n3.inorder\ n4.postorder\ n\ n ");
+            printf("\nEnter a choice: \n1.Insert\n2.preorder\n3.inorder\n4.postorder\n\n ");
                 scanf("%d", & opt);
                 switch (opt) {
                 case 1:
