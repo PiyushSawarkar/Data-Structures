@@ -69,7 +69,7 @@ void display() {
 int main(void) {
     int opt;
     while (1) {
-        printf("\n\nPriority Queue :\n\nEnter Option: \n1.Enqueue\ n2.Dequeue\ n3.Display\ n4.Exit\ n\ n ");
+        printf("\n\nPriority Queue :\n\nEnter Option: \n1.Enqueue\n2.Dequeue\n3.Display\n4.Exit\n\n ");
             scanf("%d", & opt);
             switch (opt) {
             case 1:
