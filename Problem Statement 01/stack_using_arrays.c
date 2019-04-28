@@ -43,32 +43,31 @@ void push(int stack[], int val) {
 void menu() {
         int choice, val;
         while (1) {
-            printf("\nEnter
-                choice: \n1.PUSH\ n2.POP\ n3.PEEK\ n4.DISPLAY STACK\ n5.EXIT\ n ");
-                scanf("%d", &choice);
-                switch (choice) {
+            printf("\nEnter choice: \n1.PUSH\n2.POP\n3.PEEK\n4.DISPLAY STACK\n5.EXIT\n ");
+            scanf("%d", & choice);
+            switch (choice) {
                 case 1:
-                    printf("\nEnter value to be pushed onto
-                        stack\ n ");
-                        scanf("%d", & val); push(stack, val);
-                        break;
-                        case 2:
-                        pop(stack);
-                        break;
-                        case 3:
-                        peek(stack);
-                        break;
-                        case 4:
-                        displayStack(stack);
-                        break;
-                        case 5:
-                        exit(0);
-                        default:
-                        printf("\nEnter correct choice\n");
-                    }
-                }
+                    printf("\nEnter value to be pushed onto stack\n ");
+                    scanf("%d", & val); 
+                    push(stack, val);
+                    break;
+                case 2:
+                    pop(stack);
+                    break;
+                case 3:
+                    peek(stack);
+                    break;
+                case 4:
+                    displayStack(stack);
+                    break;
+                case 5:
+                    exit(0);
+                default:
+                    printf("\nEnter correct choice\n");
             }
-            int main(void) {
-                menu();
-                return (0);
-            }
+        }
+}
+int main(void) {
+    menu();
+    return (0);
+}
